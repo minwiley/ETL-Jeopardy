@@ -1,2 +1,1 @@
 # ETL-Jeopardy
-# ETL-Jeopardy
