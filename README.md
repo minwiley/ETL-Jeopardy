@@ -25,3 +25,6 @@ At the end of the week, your team will submit a Final Report that describes the 
 Extract: your original data sources and how the data was formatted (CSV, JSON, MySQL, etc).
 Transform: what data cleaning or transformation was required.
 Load: the final database, tables/collections, and why this was chosen.
+
+
+<img width="258" alt="mustache" src="https://user-images.githubusercontent.com/41865917/48578411-8ae2aa00-e8e7-11e8-9ad8-b8ec0575e93b.PNG">
