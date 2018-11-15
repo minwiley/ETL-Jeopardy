@@ -1,4 +1,5 @@
 # ETL-Jeopardy
+<img width="317" alt="jeopardy" src="https://user-images.githubusercontent.com/41865917/48578392-7bfbf780-e8e7-11e8-99a4-b7ff756aa8f3.PNG">
 
 Guidelines for ETL Project
 
