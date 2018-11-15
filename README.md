@@ -19,6 +19,14 @@ The final tables or collections that will be used in the production database.
 
 You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
 
+
+<img width="349" alt="population" src="https://user-images.githubusercontent.com/41865917/48578458-ac439600-e8e7-11e8-8dc4-97f96a03fe82.PNG">
+
+
+<img width="346" alt="ted" src="https://user-images.githubusercontent.com/41865917/48578462-af3e8680-e8e7-11e8-91f0-b8625550a83a.PNG">
+
+
+
 Project Report
 At the end of the week, your team will submit a Final Report that describes the following:
 
