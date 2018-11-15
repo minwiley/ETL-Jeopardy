@@ -27,4 +27,5 @@ Transform: what data cleaning or transformation was required.
 Load: the final database, tables/collections, and why this was chosen.
 
 
-<img width="258" alt="mustache" src="https://user-images.githubusercontent.com/41865917/48578411-8ae2aa00-e8e7-11e8-9ad8-b8ec0575e93b.PNG">
+<img width="258" alt="mustache" src="https://user-images.githubusercontent.com/41865917/48578411-8ae2aa00-e8e7-11e8-9ad8-b8ec0575e93b.PNG"> <img width="249" alt="no mustache" src="https://user-images.githubusercontent.com/41865917/48578436-9cc44d00-e8e7-11e8-8480-78ba0caf29de.PNG">
+
