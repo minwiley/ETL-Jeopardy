@@ -19,26 +19,17 @@ Extract: your original data sources and how the data was formatted (CSV, JSON, M
 Transform: what data cleaning or transformation was required.
 Load: the final database, tables/collections, and why this was chosen.
 
-
-
-
-
 <br>
 <br>
-<br>
-
 
 ## Jeopardy versus the World… or just other random factors<br>
 ## Extract, Transform, Load (ETL) Project<br>
-<br>
 <br>
 GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood<br>
 Author: Melinda Wiley<br>
 15 November 2018<br>
 <br>
-<br>
 Task is to identify several datasets, transform identified sets, and load them into a database. The initial datasets and primary focus of this project was based around Jeopardy Questions and Answer datasets; Jeopardy Questions and Answers during the reign of Alex Trebek (1984 – 2018). Is there any correlation between Jeopardy categories, questions, and/or answers and facial hair, divorce rate, marriage rate, leading cause of death, world population, or Ted Talks? Unlikely but let’s check.
-<br>
 <br>
 Extraction:<br>
 Searched dataset focused sites for information along with google searches to find additional supporting documentation that I would be able to manipulate/transform. In this, the realization that without a strong project idea and foundation, scope creep, project deviation, and project wander can derail a short deadline project. 
@@ -59,9 +50,7 @@ Data cleaning and transformation. All data was read into a jupyter notebook. Dat
 I found two Jeopardy datasets in .csv. Data for Jeopardy was very limited or more difficult to find than initially expected. Renamed and dropped columns in both datasets to match each other. Jeopardy_1 was the larger dataset. Jeopardy_2 was merged into Jeopardy_1 for its Jeopardy/Double Jeopardy data with a left join creating completed_jeopardy.
 
 Facial Hair data (1899-2008) was converted from excel to csv. Alex Trebek shaved off his iconic mustache in 2001. He grew it back in 2014 and grew a beard in 2018. Unfortunately, the facial hair dataset only runs to 2008. 
-<img width="349" alt="population" src="https://user-images.githubusercontent.com/41865917/48578458-ac439600-e8e7-11e8-8dc4-97f96a03fe82.PNG">
-<img width="346" alt="ted" src="https://user-images.githubusercontent.com/41865917/48578462-af3e8680-e8e7-11e8-91f0-b8625550a83a.PNG">
-
+<img width="349" alt="population" src="https://user-images.githubusercontent.com/41865917/48578458-ac439600-e8e7-11e8-8dc4-97f96a03fe82.PNG"> <img width="346" alt="ted" src="https://user-images.githubusercontent.com/41865917/48578462-af3e8680-e8e7-11e8-91f0-b8625550a83a.PNG">
 
 Marriage and Divorce rates data (2000-2016) was implemented in excel since the sets were very small and was converted to a csv from an excel. 
 
