@@ -48,7 +48,7 @@ Data cleaning and transformation. All data was read into a jupyter notebook. Dat
 
 I found two Jeopardy datasets in .csv. Data for Jeopardy was very limited or more difficult to find than initially expected. Renamed and dropped columns in both datasets to match each other. Jeopardy_1 was the larger dataset. Jeopardy_2 was merged into Jeopardy_1 for its Jeopardy/Double Jeopardy data with a left join creating completed_jeopardy.
 
-Facial Hair data (1899-2008) was converted from excel to csv. Alex Trebek shaved off his iconic mustache in 2001. He grew it back in 2014 and grew a beard in 2018. Unfortunately, the facial hair dataset only runs to 2008. <img width="258" alt="mustache" src="https://user-images.githubusercontent.com/41865917/48578411-8ae2aa00-e8e7-11e8-9ad8-b8ec0575e93b.PNG"> <img width="249" alt="no mustache" src="https://user-images.githubusercontent.com/41865917/48578436-9cc44d00-e8e7-11e8-8480-78ba0caf29de.PNG">
+Facial Hair data (1899-2008) was converted from excel to csv. Alex Trebek shaved off his iconic mustache in 2001. He grew it back in 2014 and grew a beard in 2018. Unfortunately, the facial hair dataset only runs to 2008. <img width="258" alt="mustache" src="https://user-images.githubusercontent.com/41865917/48578411-8ae2aa00-e8e7-11e8-9ad8-b8ec0575e93b.PNG"> <img width="249" alt="no mustache" src="https://user-images.githubusercontent.com/41865917/48578436-9cc44d00-e8e7-11e8-8480-78ba0caf29de.PNG"><br>
 Marriage and Divorce rates data (2000-2016) was implemented in excel since the sets were very small and was converted to a csv from an excel. 
 World Population data comes from two data sources in excel. Set1 date range 1950-2015, set2 2018-2100. Columns were renamed and dropped to match each other then sets were merged by concatenation and create a mega csv. 
 
@@ -61,5 +61,5 @@ NoSQL, non-relational database was chosen for the easy of handling large volume 
 The type of final production database to load the data into (relational or non-relational).
 The final tables or collections that will be used in the production database.
 
-Jeopardy is just a syndicated game show. No correlations were found and it can be determined that Jeopardy is not a major trend decision maker ….but not sure about Ted Talks. <img width="346" alt="ted" src="https://user-images.githubusercontent.com/41865917/48578462-af3e8680-e8e7-11e8-91f0-b8625550a83a.PNG">
+Jeopardy is just a syndicated game show. No correlations were found and it can be determined that Jeopardy is not a major trend decision maker ….but not sure about Ted Talks. <br><img width="346" alt="ted" src="https://user-images.githubusercontent.com/41865917/48578462-af3e8680-e8e7-11e8-91f0-b8625550a83a.PNG">
 <br>
