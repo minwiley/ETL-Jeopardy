@@ -44,31 +44,31 @@ Load: the final database, tables/collections, and why this was chosen.
 <br>
 
 
-## Jeopardy versus the World… or just other random factors
-## Extract, Transform, Load (ETL) Project
+## Jeopardy versus the World… or just other random factors<br>
+## Extract, Transform, Load (ETL) Project<br>
 <br>
 <br>
-### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
-### Author: Melinda Wiley
-### 15 November 2018
+GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood<br>
+Author: Melinda Wiley<br>
+15 November 2018<br>
 <br>
 <br>
 Task is to identify several datasets, transform identified sets, and load them into a database. The initial datasets and primary focus of this project was based around Jeopardy Questions and Answer datasets; Jeopardy Questions and Answers during the reign of Alex Trebek (1984 – 2018). Is there any correlation between Jeopardy categories, questions, and/or answers and facial hair, divorce rate, marriage rate, leading cause of death, world population, or Ted Talks? Unlikely but let’s check.
 <br>
 <br>
-Extraction:
+Extraction:<br>
 Searched dataset focused sites for information along with google searches to find additional supporting documentation that I would be able to manipulate/transform. In this, the realization that without a strong project idea and foundation, scope creep, project deviation, and project wander can derail a short deadline project. 
 Datasets from extraction for transformation are the following: 2x jeopardy, 1x facial hair, 2x marriage and divorce rates, 2x population growth, 1x Ted Talks. Primary grouping category will be time. 
-Sources:
-1.	Jeopardy questions and answers dataset 1, jeopardy_1.csv, https://data.world/sya/200000-jeopardy-questions 
-2.	Jeopardy questions and answers dataset 2, jeopardy_2.csv, https://www.kaggle.com/sanzgiri/jeopardy-questions 
-3.	Facial hair over the years, University_Graduate_Facial_Hair_Styles.xlm, https://www.reddit.com/r/dataisbeautiful/comments/64q73v/university_graduate_facial_hair_styles_18982008_oc/dg44iay/?st=joivc1il&sh=9fb47495 
-4.	Divorce rate and marriage rate, national_marriage_divorce_rates_00-16.xlm, https://www.cdc.gov/nchs/nvss/marriage-divorce.htm 
-5.	Populations Growth, WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.xlm, https://population.un.org/wpp/Download/Standard/Population/ 
-6.	Additionally scraped for projected population growth from http://www.worldometers.info/world-population/world-population-projections/ 
+Sources:<br>
+1.	Jeopardy questions and answers dataset 1, jeopardy_1.csv, https://data.world/sya/200000-jeopardy-questions <br>
+2.	Jeopardy questions and answers dataset 2, jeopardy_2.csv, https://www.kaggle.com/sanzgiri/jeopardy-questions <br>
+3.	Facial hair over the years, University_Graduate_Facial_Hair_Styles.xlm, https://www.reddit.com/r/dataisbeautiful/comments/64q73v/university_graduate_facial_hair_styles_18982008_oc/dg44iay/?st=joivc1il&sh=9fb47495 <br>
+4.	Divorce rate and marriage rate, national_marriage_divorce_rates_00-16.xlm, https://www.cdc.gov/nchs/nvss/marriage-divorce.htm <br>
+5.	Populations Growth, WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.xlm, https://population.un.org/wpp/Download/Standard/Population/ <br>
+6.	Additionally scraped for projected population growth from http://www.worldometers.info/world-population/world-population-projections/ <br>
 7.	Ted Talks, TED_Talks_by_ID_plus-transcripts-and-LIWC-and-MFT-plus-views.csv, https://data.world/owentemple/ted-talks-complete-list 
-<br>
-Transform:
+<br><br>
+Transform:<br>
 Data cleaning and transformation. All data was read into a jupyter notebook. Data was formatted in .xlm, .csv, and table from a website.
 
 I found two Jeopardy datasets in .csv. Data for Jeopardy was very limited or more difficult to find than initially expected. Renamed and dropped columns in both datasets to match each other. Jeopardy_1 was the larger dataset. Jeopardy_2 was merged into Jeopardy_1 for its Jeopardy/Double Jeopardy data with a left join creating completed_jeopardy.
@@ -81,7 +81,7 @@ World Population data comes from two data sources in excel. Set1 date range 1950
 
 Ted Talks renamed year filmed to Year. 
 <br>
-Loaded:
+Loaded:<br>
 Cleaned collections were loaded into a MongoDB final database. 
 NoSQL, non-relational database was chosen for the easy of handling large volume semi-structured data. Additionally, MongoDB versatility. Lastly, I needed the practice working with a NoSQL db. 
 
