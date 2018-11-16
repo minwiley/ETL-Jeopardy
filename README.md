@@ -39,22 +39,23 @@ Load: the final database, tables/collections, and why this was chosen.
 
 
 
+<br>
+<br>
+<br>
 
 
-
-
-
-Jeopardy versus the World… or just other random factors
-Extract, Transform, Load (ETL) Project
-
-GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
-Author: Melinda Wiley
-15 November 2018
-
-
+## Jeopardy versus the World… or just other random factors
+## Extract, Transform, Load (ETL) Project
+<br>
+<br>
+### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
+### Author: Melinda Wiley
+### 15 November 2018
+<br>
+<br>
 Task is to identify several datasets, transform identified sets, and load them into a database. The initial datasets and primary focus of this project was based around Jeopardy Questions and Answer datasets; Jeopardy Questions and Answers during the reign of Alex Trebek (1984 – 2018). Is there any correlation between Jeopardy categories, questions, and/or answers and facial hair, divorce rate, marriage rate, leading cause of death, world population, or Ted Talks? Unlikely but let’s check.
-
- 
+<br>
+<br>
 Extraction:
 Searched dataset focused sites for information along with google searches to find additional supporting documentation that I would be able to manipulate/transform. In this, the realization that without a strong project idea and foundation, scope creep, project deviation, and project wander can derail a short deadline project. 
 Datasets from extraction for transformation are the following: 2x jeopardy, 1x facial hair, 2x marriage and divorce rates, 2x population growth, 1x Ted Talks. Primary grouping category will be time. 
@@ -66,7 +67,7 @@ Sources:
 5.	Populations Growth, WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.xlm, https://population.un.org/wpp/Download/Standard/Population/ 
 6.	Additionally scraped for projected population growth from http://www.worldometers.info/world-population/world-population-projections/ 
 7.	Ted Talks, TED_Talks_by_ID_plus-transcripts-and-LIWC-and-MFT-plus-views.csv, https://data.world/owentemple/ted-talks-complete-list 
-
+<br>
 Transform:
 Data cleaning and transformation. All data was read into a jupyter notebook. Data was formatted in .xlm, .csv, and table from a website.
 
@@ -79,7 +80,7 @@ Marriage and Divorce rates data (2000-2016) was implemented in excel since the s
 World Population data comes from two data sources in excel. Set1 date range 1950-2015, set2 2018-2100. Columns were renamed and dropped to match each other then sets were merged by concatenation and create a mega csv. 
 
 Ted Talks renamed year filmed to Year. 
-
+<br>
 Loaded:
 Cleaned collections were loaded into a MongoDB final database. 
 NoSQL, non-relational database was chosen for the easy of handling large volume semi-structured data. Additionally, MongoDB versatility. Lastly, I needed the practice working with a NoSQL db. 
@@ -88,24 +89,3 @@ The type of final production database to load the data into (relational or non-r
 The final tables or collections that will be used in the production database.
 
 Jeopardy is just a syndicated game show. No correlations were found and it can be determined that Jeopardy is not a major trend decision maker ….but not sure about Ted Talks. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
