@@ -44,7 +44,7 @@ Sources:<br>
 3.	Facial hair over the years, University_Graduate_Facial_Hair_Styles.xlm, https://www.reddit.com/r/dataisbeautiful/comments/64q73v/university_graduate_facial_hair_styles_18982008_oc/dg44iay/?st=joivc1il&sh=9fb47495 <br>
 4.	Divorce rate and marriage rate, national_marriage_divorce_rates_00-16.xlm, https://www.cdc.gov/nchs/nvss/marriage-divorce.htm <br>
 5.	Populations Growth, WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.xlm, https://population.un.org/wpp/Download/Standard/Population/ <br>
-6.	Additionally scraped for projected population growth from http://www.worldometers.info/world-population/world-population-projections/ <img width="349" alt="population" src="https://user-images.githubusercontent.com/41865917/48578458-ac439600-e8e7-11e8-8dc4-97f96a03fe82.PNG"> 
+6.	Additionally scraped for projected population growth from http://www.worldometers.info/world-population/world-population-projections/ <br><img width="349" alt="population" src="https://user-images.githubusercontent.com/41865917/48578458-ac439600-e8e7-11e8-8dc4-97f96a03fe82.PNG"> 
 7.	Ted Talks, TED_Talks_by_ID_plus-transcripts-and-LIWC-and-MFT-plus-views.csv, https://data.world/owentemple/ted-talks-complete-list 
 
 Transform: <br>
